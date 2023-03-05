@@ -1,47 +1,57 @@
 {
   "tests": [
     {
-      "name": "1",
+      "name": "Pip instalacija",
+      "setup": "",
+      "run": "pip install numpy",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "1_",
       "setup": "",
       "run": "python3 tree_height.py",
       "input": "I\r\n5\r\n4 -1 4 1 1",
       "output": "3",
       "comparison": "included",
-      "timeout": 2,
+      "timeout": 1,
       "points": 1
     },
     {
-      "name": "2",
+      "name": "2_",
       "setup": "",
       "run": "python3 tree_height.py",
       "input": "I\r\n5\r\n-1 0 4 0 3",
       "output": "4",
       "comparison": "included",
-      "timeout": 2,
+      "timeout": 1,
       "points": 1
     },
     {
-      "name": "3",
+      "name": "3_",
       "setup": "",
       "run": "python3 tree_height.py",
       "input": "I\r\n10\r\n9 7 5 5 2 9 9 9 2 -1",
       "output": "4",
       "comparison": "included",
-      "timeout": 2,
+      "timeout": 1,
       "points": 1
     },
     {
-      "name": "5",
+      "name": "5_",
       "setup": "",
       "run": "python3 tree_height.py",
-      "input": "F\r\n5",
+      "input": "F\r\n05",
       "output": "8",
       "comparison": "included",
-      "timeout": 2,
+      "timeout": 1,
       "points": 1
     },
     {
-      "name": "10",
+      "name": "10_",
       "setup": "",
       "run": "python3 tree_height.py",
       "input": "F\r\n10",
@@ -51,7 +61,7 @@
       "points": 1
     },
     {
-      "name": "16",
+      "name": "16_",
       "setup": "",
       "run": "python3 tree_height.py",
       "input": "F\r\n16",
@@ -61,7 +71,7 @@
       "points": 1
     },
     {
-      "name": "18",
+      "name": "18_",
       "setup": "",
       "run": "python3 tree_height.py",
       "input": "F\r\n18",
@@ -71,7 +81,7 @@
       "points": 1
     },
     {
-      "name": "21",
+      "name": "21_",
       "setup": "",
       "run": "python3 tree_height.py",
       "input": "F\r\n21",
@@ -81,13 +91,13 @@
       "points": 1
     },
     {
-      "name": "25",
+      "name": "25_",
       "setup": "",
       "run": "python3 tree_height.py",
       "input": "F\r\n25",
       "output": "3",
       "comparison": "included",
-      "timeout": 2,
+      "timeout": 1,
       "points": 1
     }
   ]
